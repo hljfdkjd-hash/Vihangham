@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ------------------------ SECURITY ------------------------
 SECRET_KEY = 'replace-this-with-your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = []  # Deployment ke time: ['*']
+ALLOWED_HOSTS = ["vihangham.onrender.com"]  # Deployment ke time: ['*']
 
 # ------------------------ INSTALLED APPS ------------------------
 INSTALLED_APPS = [
